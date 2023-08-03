@@ -7,7 +7,7 @@ security, performance, and UI simplicity.
 
 ![Multiple tabs](screenshots/multiple-tabs.png)
 
-## How to Use
+## Usage
 
 1. Download or clone the repository:
 
@@ -80,6 +80,33 @@ And here are the useful shortcuts that I mostly used:
   extension.
 - Use local password manager such as [pass](https://www.passwordstore.org/)
   instead of built-in password manager in browser.
+
+## Known Issues
+
+- Some pop-up bar like DRM, bookmark menu, and maybe other things that
+  beside the search bar had a weird placement. I think it's a bit tricky to
+  show them and debug using `order` and calculate the `width` property inside
+  media query.
+
+- Search bar on Windows are overlapping at right side, causing the bookmark
+  icon and any other toolbar icon become hidden.
+
+## Debugging
+
+If you want to debug the Firefox style or want to customize your own Firefox
+style, you can follow these step:
+
+1. Press `Ctrl+Shift+i` or right click and `inspect` to show the developer tools.
+2. Click the three dots at the right side of developer tools window and go to
+   `Settings`.
+3. At the `Advanced settings` option, checkmark the `Enable browser chrome and
+   add-on debugging toolboxes` and `Enable remote debugging`.
+4. Close the developer tools window and press `Ctrl+Shift+Alt+i`.
+5. If it prompt the `Incoming Connection` window, click `OK` to allow remote
+   debugging.
+6. Now you can inspect every top bar element such as navigation bar and tab bar.
+   You can also save every changes inside `Style Editor` and select the
+   `userChrome.css`.
 
 ## Special Thanks
 
