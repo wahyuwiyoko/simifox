@@ -81,7 +81,7 @@ at `Compositing` field.
 If you are using Intel graphics driver, and want to monitoring the performance,
 it's recommended to install `intel-gpu-tools`. To use it, enter
 `sudo sudo intel_gpu_top`. You will see every application that used hardware
-acceleration like for example using `mpv` video player and Firefox.
+acceleration like for example using mpv video player and Firefox.
 
 ![Intel graphic monitoring](screenshots/intel-graphic-monitoring.png)
 
@@ -152,9 +152,10 @@ style, you can follow these step:
 4. Close the developer tools window and press `Ctrl+Shift+Alt+i`.
 5. If it prompt the `Incoming Connection` window, click `OK` to allow remote
    debugging.
-6. Now you can inspect every top bar element such as navigation bar and tab bar.
-   You can also save every changes inside `Style Editor` and select the
-   `userChrome.css`.
+
+Now you can inspect every top bar element such as navigation bar and tab bar.
+You can also save every changes inside `Style Editor` and select the
+`userChrome.css`.
 
 ## Special Thanks
 
