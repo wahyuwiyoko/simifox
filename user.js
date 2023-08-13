@@ -126,10 +126,6 @@ user_pref("network.http.referer.XOriginTrimmingPolicy", 2);
 // Container
 user_pref("privacy.userContext.ui.enabled", true);
 
-// WebRTC
-user_pref("media.peerconnection.ice.proxy_only_if_behind_proxy", true);
-user_pref("media.peerconnection.ice.default_address_only", true);
-
 // Mozilla
 user_pref("browser.uitour.enabled", false);
 user_pref("browser.tabs.firefox-view", false);
