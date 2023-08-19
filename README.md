@@ -18,7 +18,7 @@ I would recommend to install `libva2`, `libva-glx2`,
 Or you can just install `vainfo` package, it already depends on `libva2`,
 `libva-wayland2`, and `libva-x11-2` packages.
 
-It's well tested on my Linux desktop. I have no idea on Windows or Mac. So
+It's well tested on Linux desktop. I have no idea on Windows or Mac. So
 make sure those packages installed for a better web rendering because
 hardware acceleration and decoder are enabled in configuration.
 
@@ -80,7 +80,7 @@ at `Compositing` field.
 
 If you are using Intel graphics driver, and want to monitoring the performance,
 it's recommended to install `intel-gpu-tools`. To use it, enter
-`sudo sudo intel_gpu_top`. You will see every application that used hardware
+`sudo intel_gpu_top`. You will see every application that used hardware
 acceleration like for example using mpv video player and Firefox.
 
 ![Intel graphic monitoring](screenshots/intel-graphic-monitoring.png)
