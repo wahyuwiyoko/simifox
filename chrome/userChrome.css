@@ -101,6 +101,10 @@ toolbar#nav-bar {
   margin-inline-start: 0 !important;
 }
 
+#tab-notification-deck {
+  order: 2;
+}
+
 @media (min-width: 1000px) {
   #navigator-toolbox {
     display: flex;
