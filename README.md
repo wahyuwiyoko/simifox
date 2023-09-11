@@ -123,9 +123,9 @@ And here are the useful shortcuts that I mostly used:
 ## Privacy Suggestions
 
 - Change default search engine to DuckDuckGo.
-- Use [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
-  and [DuckDuckGo](https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-for-firefox/)
-  extension.
+- Use [uBlock Origin](https://addons.mozilla.org/firefox/addon/ublock-origin/),
+  [DuckDuckGo](https://addons.mozilla.org/firefox/addon/duckduckgo-for-firefox/),
+  and [LibRedirect](https://addons.mozilla.org/firefox/addon/libredirect/) extension.
 - Use local password manager such as [pass](https://www.passwordstore.org/)
   instead of built-in password manager in browser.
 
