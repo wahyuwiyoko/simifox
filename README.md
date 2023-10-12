@@ -3,7 +3,7 @@
 A simple and minimal Firefox custom configurations to enhance privacy,
 security, performance, and UI simplicity.
 
-![Overview](screenshots/homepage.png)
+![Home page](screenshots/home-page.png)
 
 ![Multiple tabs](screenshots/multiple-tabs.png)
 
