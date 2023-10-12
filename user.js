@@ -43,7 +43,7 @@ user_pref("network.http.max-persistent-connections-per-server", 10);
 user_pref("network.ssl_tokens_cache_capacity", 32768);
 
 // Tracking protection
-user_pref("browser.contentblocking.category", "strict");
+user_pref("browser.contentblocking.category", "standard");
 user_pref("urlclassifier.trackingSkipURLs", "*.reddit.com, *.twitter.com, *.twimg.com, *.tiktok.com");
 user_pref("urlclassifier.features.socialtracking.skipURLs", "*.instagram.com, *.twitter.com, *.twimg.com");
 user_pref("privacy.query_stripping.strip_list", "__hsfp __hssc __hstc __s _hsenc _openstat dclid fbclid gbraid gclid hsCtaTracking igshid mc_eid ml_subscriber ml_subscriber_hash msclkid oft_c oft_ck oft_d oft_id oft_ids oft_k oft_lk oft_sk oly_anon_id oly_enc_id rb_clickid s_cid twclid vero_conv vero_id wbraid wickedid yclid");
@@ -81,7 +81,6 @@ user_pref("network.predictor.enable-prefetch", false);
 
 // URL bar
 user_pref("browser.search.separatePrivateDefault.ui.enabled", true);
-user_pref("browser.urlbar.update2.engineAliasRefresh", true);
 user_pref("browser.search.suggest.enabled", false);
 user_pref("browser.urlbar.suggest.quicksuggest.sponsored", false);
 user_pref("browser.urlbar.suggest.quicksuggest.nonsponsored", false);
@@ -131,7 +130,6 @@ user_pref("browser.uitour.enabled", false);
 user_pref("browser.tabs.firefox-view", false);
 user_pref("browser.shell.checkDefaultBrowser", false);
 user_pref("browser.discovery.enabled", false);
-user_pref("browser.download.animateNotifications", false);
 user_pref("browser.preferences.moreFromMozilla", false);
 user_pref("browser.aboutwelcome.enabled", false);
 user_pref("browser.safebrowsing.downloads.remote.enabled", false);
@@ -168,7 +166,7 @@ user_pref("app.normandy.api_url", "");
 user_pref("app.shield.optoutstudies.enabled", false);
 
 // Firefox UI
-user_pref("layout.css.prefers-color-scheme.content-override", 3);
+user_pref("layout.css.prefers-color-scheme.content-override", 2);
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 user_pref("browser.compactmode.show", true);
 user_pref("browser.privatebrowsing.vpnpromourl", "");
@@ -184,6 +182,8 @@ user_pref("browser.newtabpage.activity-stream.showSearch", false);
 user_pref("browser.newtabpage.activity-stream.feeds.section.highlights", false);
 user_pref("browser.newtabpage.activity-stream.feeds.snippets", false);
 user_pref("browser.toolbars.bookmarks.visibility", "never");
+user_pref("browser.gesture.swipe.left", "");
+user_pref("browser.gesture.swipe.right", "");
 
 // Fullscreen
 user_pref("full-screen-api.transition-duration.enter", "0 0");
@@ -227,6 +227,7 @@ user_pref("geo.provider.use_geoclue", false);
 user_pref("permissions.default.geo", 2);
 user_pref("permissions.default.desktop-notification", 2);
 user_pref("permissions.manager.defaultsUrl", "");
+user_pref("doh-rollout.disable-heuristics", true);
 
 // Extensions
 user_pref("extensions.pocket.enabled", false);
@@ -234,3 +235,6 @@ user_pref("extensions.update.autoUpdateDefault", false);
 user_pref("extensions.htmlaboutaddons.recommendations.enabled", false);
 user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons", false);
 user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features", false);
+user_pref("extensions.ui.dictionary.hidden", true);
+user_pref("extensions.ui.locale.hidden", true);
+user_pref("extensions.ui.sitepermission.hidden", true);

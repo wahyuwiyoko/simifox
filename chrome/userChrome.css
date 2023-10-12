@@ -4,10 +4,6 @@
   }
 }
 
-:root {
-  --navbarWidth: 350px;
-}
-
 #navigator-toolbox {
   border-bottom: none !important;
 }
@@ -15,6 +11,7 @@
 toolbar#nav-bar {
   background: var(--lwt-accent-color) !important;
   box-shadow: none !important;
+  min-width: 0 !important;
 }
 
 #urlbar-background {
@@ -38,8 +35,26 @@ toolbar#nav-bar {
   outline-color: #524f67 !important;
 }
 
+#titlebar {
+  flex-grow: 1;
+}
+
+#nav-bar {
+  box-shadow: none !important;
+}
+
 .urlbar-input-box {
   padding-left: 10px !important;
+}
+
+/* Disable maximize, minimize, exit container */
+.titlebar-buttonbox-container {
+  display: none !important;
+}
+
+/* Disable title bar container space */
+.titlebar-spacer[type="post-tabs"] {
+  display: none !important;
 }
 
 .tab-text.tabl-label {
@@ -90,9 +105,6 @@ toolbar#nav-bar {
   display: none !important;
 }
 
-#nav-bar {
-  box-shadow: none !important;
-}
 
 /* Remove gap after pinned tabs */
 #tabbrowser-tabs[haspinnedtabs]:not([positionpinnedtabs])
