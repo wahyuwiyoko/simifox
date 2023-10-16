@@ -157,6 +157,14 @@ Now you can inspect every top bar element such as navigation bar and tab bar.
 You can also save every changes inside `Style Editor` and select the
 `userChrome.css`.
 
+## Contributing
+
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) for ways to get started.
+
+If you found an issue or would like to submit an improvement to this project,
+please submit an issue using the issues tab above. If you would like to submit
+a PR with a fix, reference the issue you created.
+
 ## Special Thanks
 
 - [yokoffing](https://github.com/yokoffing)
