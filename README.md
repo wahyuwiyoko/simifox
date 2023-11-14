@@ -171,4 +171,5 @@ a PR with a fix, reference the issue you created.
 - [Eric Murphy](https://github.com/ericmurphyxyz)
 - [Martin Stransky](https://mastransky.wordpress.com/)
 - [pyllyukko](https://github.com/pyllyukko)
+- [brainf+ck](https://github.com/brainfucksec)
 - [Rosé Pine](https://rosepinetheme.com/)
