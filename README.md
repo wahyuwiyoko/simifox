@@ -33,11 +33,11 @@ git clone https://github.com/wahyuwiyoko/simifox.git
 2. Copy the `user.js` file and `chrome` directory from `simifox` directory
 to your Firefox profile directory.
 
-| OS      | Path                                                                                            |
-|---------|-------------------------------------------------------------------------------------------------|
-| Windows | C:\Users\your-username\AppData\Roaming\Mozilla\Firefox\Profiles\xxx.your-firefox-profile-name   |
-| Mac     | /Users/your-username/Library/Application Support/Firefox/Profiles/xxx.your-firefox-profile-name |
-| Linux   | /home/your-username/.mozilla/firefox/xxx.your-firefox-profile-name                              |
+| OS      | Path                                                                                              |
+|---------|---------------------------------------------------------------------------------------------------|
+| Windows | `C:\Users\your-username\AppData\Roaming\Mozilla\Firefox\Profiles\xxx.your-firefox-profile-name`   |
+| MacOS   | `/Users/your-username/Library/Application Support/Firefox/Profiles/xxx.your-firefox-profile-name` |
+| Linux   | `/home/your-username/.mozilla/firefox/xxx.your-firefox-profile-name`                              |
 
 Replace `xxx.your-firefox-profile-name` with the correct Firefox profile name.
 Usually it's eight random characters with the name of the profile.
