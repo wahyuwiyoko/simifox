@@ -3,9 +3,9 @@
 A simple and minimal Firefox custom configurations to enhance privacy,
 security, performance, and UI simplicity.
 
-![Home page](screenshots/home-page.png)
+![Firefox home page](screenshots/home-page.png)
 
-![Multiple tabs](screenshots/multiple-tabs.png)
+![Firefox with multiple tabs](screenshots/multiple-tabs.png)
 
 ## Prerequisite
 
@@ -18,19 +18,19 @@ I would recommend to install `libva2`, `libva-glx2`,
 Or you can just install `vainfo` package, it already depends on `libva2`,
 `libva-wayland2`, and `libva-x11-2` packages.
 
-It's well tested on Linux desktop. I have no idea on Windows or Mac. So
-make sure those packages installed for a better web rendering because
-hardware acceleration and decoder are enabled in configuration.
+It's well tested on Linux desktop. So make sure those packages installed for a
+better web rendering because hardware acceleration and decoder are enabled in
+configuration.
 
 ## Usage
 
-1. Download or clone the repository:
+Download or clone the repository:
 
 ```
 git clone https://github.com/wahyuwiyoko/simifox.git
 ```
 
-2. Copy the `user.js` file and `chrome` directory from `simifox` directory
+Copy the `user.js` file and `chrome` directory from `simifox` directory
 to your Firefox profile directory.
 
 | OS      | Path                                                                                              |
@@ -43,7 +43,7 @@ Replace `xxx.your-firefox-profile-name` with the correct Firefox profile name.
 Usually it's eight random characters with the name of the profile.
 For example: `/home/john/.mozilla/firefox/eh3dq93f.simifox`
 
-3. Restart Firefox to apply the configurations.
+Restart Firefox to apply the configurations.
 
 ## Tips
 
@@ -52,7 +52,7 @@ For example: `/home/john/.mozilla/firefox/eh3dq93f.simifox`
 If you start with a new Firefox profile and use this custom configuration,
 you may be having a wasted space between the search bar by default like these:
 
-![Search bar space](screenshots/search-bar-space.png)
+![Firefox search bar space](screenshots/search-bar-space.png)
 
 To remove the "flexible space", right click on the top bar, `Customize Toolbar...`,
 drag and drop the `Flexible Space` and `Reload` icon to the "overflow menu",
@@ -60,7 +60,7 @@ and `Done`.
 
 You will have _compact-like_ search bar like these:
 
-![Compact search bar](screenshots/search-bar-compact.png)
+![Firefox compact search bar](screenshots/search-bar-compact.png)
 
 ### WebGL Test
 
@@ -81,7 +81,7 @@ at `Compositing` field.
 If you are using Intel graphics driver, and want to monitoring the performance,
 it's recommended to install `intel-gpu-tools`. To use it, enter
 `sudo intel_gpu_top`. You will see every application that used hardware
-acceleration like for example using mpv video player and Firefox.
+acceleration like for example using playing YouTube videos in Firefox.
 
 ![Intel graphic monitoring](screenshots/intel-graphic-monitoring.png)
 
@@ -128,16 +128,6 @@ And here are the useful shortcuts that I mostly used:
   and [LibRedirect](https://addons.mozilla.org/firefox/addon/libredirect/) extension.
 - Use local password manager such as [pass](https://www.passwordstore.org/)
   instead of built-in password manager in browser.
-
-## Known Issues
-
-- Some pop-up bar like DRM, bookmark menu, and maybe other things that
-  beside the search bar had a weird placement. I think it's a bit tricky to
-  show them and debug using `order` and calculate the `width` property inside
-  media query.
-
-- Search bar on Windows are overlapping at right side, causing the bookmark
-  icon and any other toolbar icon become hidden.
 
 ## Debugging
 
